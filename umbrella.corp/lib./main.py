@@ -1,8 +1,7 @@
 from Author import Author
-from Magazine import Magazine
 from Article import Article
+from Magazine import Magazine
 
-# Create instances and test relationships and methods
 author1 = Author("John Doe")
 author2 = Author("Jane Smith")
 
@@ -13,7 +12,6 @@ author1.add_article(magazine1, "Python Programming")
 author1.add_article(magazine2, "Fashion Trends")
 author2.add_article(magazine2, "Eco-Friendly Fashion")
 
-# Test relationships and methods
 print(author1.articles())
 print(author1.magazines())
 print(author1.topic_areas())
