@@ -1,7 +1,6 @@
 from Author import Author
-from Article import Article
 from Magazine import Magazine
-
+from Article import Article
 author1 = Author("John Doe")
 author2 = Author("Jane Smith")
 

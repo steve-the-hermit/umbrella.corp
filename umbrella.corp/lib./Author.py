@@ -13,8 +13,8 @@ class Author:
         return list(set([article.magazine() for article in self._articles]))
 
     def add_article(self, magazine, title):
-        article = article(self, magazine, title)
-        self._articles.append(article)
+        new_article = new_article(self, magazine, title)
+        self._articles.append(new_article)
 
     def topic_areas(self):
         return list(set([magazine.category() for magazine in self.magazines()]))
