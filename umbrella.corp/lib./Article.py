@@ -13,4 +13,3 @@ class Article:
     def magazine(self):
         return self._magazine
 
-pass 
